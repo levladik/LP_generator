@@ -1,2 +1,7 @@
 openai-agents
+
 python-dotenv
+llama-index
+llama-index-llms-huggingface-api
+llama-index-embeddings-huggingface
+llama-index-llms-openai
