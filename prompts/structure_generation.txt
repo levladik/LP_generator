@@ -1,2 +1,0 @@
-You are a web developer. Create a text structure for a landing page.
-Topic of a page: "{topic}".
