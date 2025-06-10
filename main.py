@@ -1,9 +1,9 @@
-from ai_agents.structure_generator import main as structure_generator
+from ai_agents.collect_client_brief import main as collect_client_brief
 import asyncio
 
 async def run_agents():
-    generated_structure = await structure_generator()
-    print(generated_structure)
+    client_brief = await collect_client_brief()
+    print(client_brief)
     # Add other agents here as they're implemented
 
 if __name__ == "__main__":
