@@ -1,7 +1,6 @@
 import json
-from ai_agents.brief_agent.shared_state import brief
 
-def save_brief_to_json():
+def save_brief_to_json(brief):
     """
     Save the brief dictionary to a JSON file.
     """
