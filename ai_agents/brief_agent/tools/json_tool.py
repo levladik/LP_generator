@@ -1,5 +1,5 @@
 import json
-from ..collect_client_brief import brief
+from ai_agents.brief_agent.shared_state import brief
 
 def save_brief_to_json():
     """
