@@ -1,9 +1,8 @@
 import asyncio
-from ai_agents.brief_agent.collect_client_brief import main as collect_client_brief
-
+from agents.briefing.collect_client_answers import main as collect_client_answers
 
 async def main():
-    await collect_client_brief()
+    await collect_client_answers()
 
 if __name__ == "__main__":
     asyncio.run(main())
